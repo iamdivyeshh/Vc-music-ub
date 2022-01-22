@@ -1,13 +1,13 @@
 {
-    "name": "LuciferVCbot-1",
+    "name": "Divyesh Vc Userbot",
     "description": "Telegram UserBot for Video Chat.",
-    "logo": "https://telegra.ph/file/dd8f845ad5e897645054e.jpg",
+    "logo": "https://telegra.ph/file/98651249ad219fdaa8a6f.jpg",
     "keywords": [
         "Telegram",
         "MusicPlayer",
         "VideoPlayer"
     ],
-    "repository": "https://github.com/Akbotmakersnew/LuciferVCbot-1",
+    "repository": "https://github.com/iamdivyeshh/Vc-music-bot",
     "env": {
         "SESSION": {
             "description": "Pyrogram String Session. From https://t.me/Python_StringGen_bot",
@@ -25,6 +25,7 @@
         "API_HASH": {
             "description": "Your api hash from my.telegram.org/apps",
             "required": true
+            "value" : "1258806974" 
         },
         "SUDO_USERS": {
             "description": "User ID list user counts as admin everywhere(separator using space)",
