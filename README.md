@@ -1,10 +1,10 @@
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=welcome+To+AkBotDev's+Repo!;created+by+JOKER+TG!;A+simple+SONG+And+VIDEO+PLAYING+bot!)</p>
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=welcome+To+Divyesh's+Repo!;created+by+Divyesh+Vaghela!;A+simple+SONG+And+VIDEO+PLAYING+bot!)</p>
 <p align="center">
-  <img src="logo(1).jpg" alt="Akbotmakersnew logo">
+  <img src="logo(1).jpg" alt="Divyesh logo">
 
-# LUCIFER VC USERBOT
+# TG VC USERBOT
 
-# [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Akbotmakersnew/LuciferVCbot-1)
+# [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/iamdivyeshh/Vc-music-ub)
 
 # VARS
 
@@ -27,8 +27,8 @@ Don't want BOT_TOKEN from [BOT FATHER](https://t.me/botfather)
 * /playlist
 # DEVS
 
-DEV: [JOKER TG](https://t.me/IAM_A_JOKER)
+DEV: [Divyesh Vaghela](https://t.me/zaynxop)
 
-# OWNERS
 
-[AkBotDevelopers](https://t.me/Ak_Bot_SupportGroup) & [LS BOTZ](https://t.me/Ls_Supportz)
+
+
