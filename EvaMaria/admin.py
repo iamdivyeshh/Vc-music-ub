@@ -65,9 +65,7 @@ async def pause(client, m: Message):
     if chat_id in QUEUE:
         try:
             await call_py.pause_stream(chat_id)
-            await m.reply(
-                f"**⏸ Paused.**\n\n• Oᴡɴᴇʀ » @ZaYNxOP"
-            )
+            await m.reply(f"**⏸ Paused.**\n\n• Oᴡɴᴇʀ » @ZaYNxOP")
         except Exception as e:
             await m.reply(f"**ERROR** \n`{e}`")
     else:
@@ -82,9 +80,7 @@ async def resume(client, m: Message):
     if chat_id in QUEUE:
         try:
             await call_py.resume_stream(chat_id)
-            await m.reply(
-                f"**▶ Resumed**\n\n• Oᴡɴᴇʀ » @ZaYNxOP"
-            )
+            await m.reply(f"**▶ Resumed**\n\n• Oᴡɴᴇʀ » @ZaYNxOP")
         except Exception as e:
             await m.reply(f"**ERROR** \n`{e}`")
     else:
