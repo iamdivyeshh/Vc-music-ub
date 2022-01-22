@@ -112,7 +112,9 @@ async def play(client, m: Message):
     if replied:
         if replied.audio or replied.voice:
             await m.delete()
-            huehue = await replied.reply("**𝐏𝐋𝐄𝐀𝐒𝐄 𝐖𝐀𝐈𝐓 𝐒𝐈𝐑 / 𝐌𝐀'𝐀𝐌🙂\n\n 𝐌𝐘 𝐏𝐄𝐑𝐔 𝐎𝐖𝐍𝐄𝐑 :- @ZaYNxOP**")
+            huehue = await replied.reply(
+                "**𝐏𝐋𝐄𝐀𝐒𝐄 𝐖𝐀𝐈𝐓 𝐒𝐈𝐑 / 𝐌𝐀'𝐀𝐌🙂\n\n 𝐌𝐘 𝐏𝐄𝐑𝐔 𝐎𝐖𝐍𝐄𝐑 :- @ZaYNxOP**"
+            )
             dl = await replied.download()
             link = replied.link
             if replied.audio:
@@ -158,14 +160,20 @@ async def play(client, m: Message):
 
     else:
         if len(m.command) < 2:
-            await m.reply("😐𝐑𝐞𝐩𝐥𝐲 𝐭𝐨 𝐀𝐮𝐝𝐢𝐨 𝐅𝐢𝐥𝐞 𝐨𝐫 𝐠𝐢𝐯𝐞 𝐬𝐨𝐦𝐞𝐭𝐡𝐢𝐧𝐠 𝐟𝐨𝐫 𝐒𝐞𝐚𝐫𝐜𝐡\n\n𝐌𝐘 𝐏𝐄𝐑𝐔 𝐎𝐖𝐍𝐄𝐑 :- @ZaYNxOP")
+            await m.reply(
+                "😐𝐑𝐞𝐩𝐥𝐲 𝐭𝐨 𝐀𝐮𝐝𝐢𝐨 𝐅𝐢𝐥𝐞 𝐨𝐫 𝐠𝐢𝐯𝐞 𝐬𝐨𝐦𝐞𝐭𝐡𝐢𝐧𝐠 𝐟𝐨𝐫 𝐒𝐞𝐚𝐫𝐜𝐡\n\n𝐌𝐘 𝐏𝐄𝐑𝐔 𝐎𝐖𝐍𝐄𝐑 :- @ZaYNxOP"
+            )
         else:
             await m.delete()
-            huehue = await m.reply("**𝐒𝐞𝐚𝐫𝐜𝐡 𝐇𝐨𝐨 𝐑𝐚𝐡𝐚 𝐇𝐚𝐢🙂\n\n𝐌𝐘 𝐏𝐄𝐑𝐔 𝐎𝐖𝐍𝐄𝐑 :- @ZaYNxOP**")
+            huehue = await m.reply(
+                "**𝐒𝐞𝐚𝐫𝐜𝐡 𝐇𝐨𝐨 𝐑𝐚𝐡𝐚 𝐇𝐚𝐢🙂\n\n𝐌𝐘 𝐏𝐄𝐑𝐔 𝐎𝐖𝐍𝐄𝐑 :- @ZaYNxOP**"
+            )
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
             if search == 0:
-                await huehue.edit("`⚠️️𝙵𝚘𝚞𝚗𝚍 𝙽𝚘𝚝𝚑𝚒𝚗𝚐 𝚏𝚘𝚛 𝚝𝚑𝚎 𝙶𝚒𝚟𝚎𝚗 𝚀𝚞𝚎𝚛𝚢`\n\n𝐌𝐘 𝐏𝐄𝐑𝐔 𝐎𝐖𝐍𝐄𝐑 :-@ZaYNxOP")
+                await huehue.edit(
+                    "`⚠️️𝙵𝚘𝚞𝚗𝚍 𝙽𝚘𝚝𝚑𝚒𝚗𝚐 𝚏𝚘𝚛 𝚝𝚑𝚎 𝙶𝚒𝚟𝚎𝚗 𝚀𝚞𝚎𝚛𝚢`\n\n𝐌𝐘 𝐏𝐄𝐑𝐔 𝐎𝐖𝐍𝐄𝐑 :-@ZaYNxOP"
+                )
             else:
                 songname = search[0]
                 url = search[1]
@@ -219,7 +227,9 @@ async def vplay(client, m: Message):
     if replied:
         if replied.video or replied.document:
             await m.delete()
-            huehue = await replied.reply("**🗃️𝐏𝐋𝐄𝐀𝐒𝐄 𝐖𝐀𝐈𝐓 𝐒𝐈𝐑 / 𝐌𝐀'𝐀𝐌🙂\n\n 𝐌𝐘 𝐏𝐄𝐑𝐔 𝐎𝐖𝐍𝐄𝐑 :- @ZaYNxOP**")
+            huehue = await replied.reply(
+                "**🗃️𝐏𝐋𝐄𝐀𝐒𝐄 𝐖𝐀𝐈𝐓 𝐒𝐈𝐑 / 𝐌𝐀'𝐀𝐌🙂\n\n 𝐌𝐘 𝐏𝐄𝐑𝐔 𝐎𝐖𝐍𝐄𝐑 :- @ZaYNxOP**"
+            )
             dl = await replied.download()
             link = replied.link
             if len(m.command) < 2:
