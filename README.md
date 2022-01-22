@@ -1,6 +1,6 @@
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=welcome+To+Divyesh's+Repo!;created+by+Divyesh+Vaghela!;A+simple+SONG+And+VIDEO+PLAYING+bot!)</p>
 <p align="center">
-  <img src="logo(1).jpg" alt="Divyesh logo">
+  <img src="PicsArt_01-18-11.48.08.jpg" alt="Divyesh logo">
 
 # TG VC USERBOT
 
