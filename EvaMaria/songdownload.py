@@ -67,7 +67,7 @@ async def song(client, message: Message):
     capy = f"""
 **🏷️ Name:** [{thum}]({mo})
 **❤ Oᴡɴᴇʀ:
-** [Here is repo](https://t.me/zaynxop)
+** [Here](https://t.me/zaynxop)
 """
     file_stark = f"{ytdl_data['id']}.mp3"
     await client.send_audio(
