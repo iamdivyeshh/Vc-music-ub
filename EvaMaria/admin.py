@@ -7,12 +7,14 @@ from EvaMaria.helpers.handlers import skip_current_song, skip_item
 from EvaMaria.helpers.queues import QUEUE, clear_queue
 
 
-@Client.on_message(commandpro(["/alexaskip", "/aelxanext", "alexaskip", "alexanext", "nxt"]) & other_filters)
+@Client.on_message(
+    commandpro(["/alexaskip", "/aelxanext", "alexaskip", "alexanext", "nxt"])
+    & other_filters
+)
 @errors
 @authorized_users_only
 async def skip(_, message: Message):
     global que
-    ACTV_CALLS = []
     chat_id = message.chat.id
     if len(m.command) < 2:
         op = await skip_current_song(chat_id)
