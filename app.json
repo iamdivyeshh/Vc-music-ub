@@ -1,7 +1,7 @@
 {
     "name": "LuciferVCbot-1",
     "description": "Telegram UserBot for Video Chat.",
-    "logo": <img src="PicsArt_01-18-11.48.08.jpg" alt="Divyesh logo"> ,
+    "<img src" ="PicsArt_01-18-11.48.08.jpg" alt="Divyesh logo"> ,
     "keywords": [
         "Telegram",
         "MusicPlayer",
